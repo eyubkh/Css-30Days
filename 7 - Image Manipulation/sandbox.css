@@ -1,0 +1,29 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+.sandbox img:hover {
+    transition: all .5s ease;
+    cursor: crosshair;
+    filter: none
+}
+
+.grayscale {
+    filter: grayscale(1);
+}
+
+.blur {
+    filter: blur(4px);
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.sepia {
+    filter: sepia(80%);
+}
+
+
