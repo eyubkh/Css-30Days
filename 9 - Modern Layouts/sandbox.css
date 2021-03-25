@@ -1,0 +1,83 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+.layout1 div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.layout1 aside {
+    flex-basis: calc(33% - 2.5px);
+    height: 50%;
+}
+
+.layout1 article {
+    flex-basis: calc(66% - 2.5px);
+}
+
+/* Layout 2 */
+
+.layout2 header {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.layout2 header .logo {
+    flex-basis: calc(33% - 2px);
+    margin: 0;
+
+}
+
+.layout2 nav {
+    flex-basis: calc(66% - 2px);
+    margin: 0;
+
+}
+
+.layout2 div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+.layout2 div .sidenav {
+    height: 50%;
+}
+.layout2 div article {
+    height: 95%;
+}
+.layout2 div .sidebar {
+    height: 60%;
+}
+
+/* layaout 3 */
+
+.layout3 header{
+    display: flex;
+
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.layout3 nav{
+    flex-basis: 66%;
+    margin: 0;
+}
+    
+.layout3 .logo{
+    flex-basis: 33%;
+    margin: 0;
+}
+
+.layout3 .articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+}
+
+
