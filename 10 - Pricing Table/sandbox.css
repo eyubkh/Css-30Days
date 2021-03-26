@@ -1,0 +1,87 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+:root {
+    --basic-color: #555;
+    --awesome-color: #ff8888;
+    --backg-outstanding: #f8f8f8;
+    --backg: #fff;
+}
+
+.pricing-features li:nth-child(odd) {
+    background-color: var(--backg-outstanding);
+}
+
+.pricing-features li:last-of-type {
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Basics */
+
+.pricing-table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: .6rem;
+    color: var(--basic-color);
+}
+
+.pricing-block {
+    background-color: var(--backg);
+    border-radius: .3rem;
+    height: 85%;
+}
+
+.pricing-header {
+    text-align: center;
+    padding: 1.8rem 1.2rem 2.5rem;
+}
+
+.pricing-heading {
+    font-size: 1.4rem;
+    color: var(--basic-color);
+    font-weight: 700;
+}
+
+.pricing-price__value {
+    font-size: 5rem;
+    margin-top: 1.1rem;
+    color: var(--basic-color);
+}
+
+.pricing-price{
+    display: flex;
+    justify-content: center;
+}
+.pricing-features li {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    margin: 0;
+}
+
+.pricing-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background-color: var(--basic-color);
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+/* Awesome */
+
+
+.pricing-popular span {
+    color: var(--awesome-color);
+}
