@@ -1,0 +1,24 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+
+.page-content {
+    min-height: 100%;
+    margin-bottom: -120px;
+}
+
+.page-content::after {
+    content: '';
+    display: block;
+}
+footer , .page-content::after {
+    margin-bottom: 120px;
+}
+
+html,body {
+  height: 100%;
+  margin: 0;
+}
